@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>NetCoreTeamCity.Samples</AssemblyName>
@@ -15,9 +14,10 @@
     <Version>0.1.2-beta</Version>
     <Description />
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\NetCoreTeamCity\NetCoreTeamCity.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.0.3" />
+  </ItemGroup>
 </Project>
